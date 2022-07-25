@@ -4,11 +4,73 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
+    <!-- type="module" No reconoce funcion en el javascript -->
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+
+    
+    <div class="container">
+      <header>
+        <H1> ASESORIA JURIDICA </H1>
+     </header>
+      <input type="text" id="textoPrueba"></input>
+     <button id="prueba">clck me</button>
+
+
+     <button id="buttonValidarCampos"> </button>
+
+     <div id="containerform">
+
+      <form>
+
+        <div class="numbercard">
+          <input type="text" class="cardnumberone" id="cardnumber" placeholder="Numero de Tarjeta" ondrop="return false;" 
+          onpaste="return false;" onkeypress="return event.charCode>=48 && event.charCode<=57" required/>>
+          <!-- onkeypress este evento es ejecutado cuando presionamos cualquier tecla que produce un caracter 
+          48 y 57 son el código de carácter Unicode de 0 y 9-->
+          <button type="button" onclick="CodigoValidacion(cardnumber)"> Aceptar </button>
+        </div>
+
+        <div class="owner">
+          <input type="text" class="ownernameone" id= "ownername" placeholder="Nombre del Titular">
+          <button type="button"> Aceptar </button>
+        </div>
+        
+        <div class="bankingi">
+          <input type="text" class="bankingone" id= "banking" placeholder="Institucion Bancaria">
+          <button type="button"> Aceptar </button>
+        </div>
+
+        <div class="typecard">
+          <input type="text" class="cardtypeone" id= "cardtype" placeholder="Tipo Tarjeta">
+          <button type="button"> Aceptar </button>
+        </div>
+        
+        <div class="validitya">
+          <input type="month" class="validityone" id= "validity" placeholder="Vigencia">
+          <button type="button"> Aceptar </button>
+        </div>
+        
+        <div class="codesecurity">
+          <input type="text" class="securitycodeone" id= "securitycode" placeholder="CCV">
+          <button type="button"> Aceptar </button>
+        </div>  
+
+      </form> 
+    
+     </div>
+
+     
+      
+     </div>
+
+      
+      
+      
+
+    </div>
+
+    
   </body>
 </html>
