@@ -4,7 +4,18 @@ body{
 
 .container{
     text-align: center;
-    margin-top: 350px;
+    margin-top: 250px;
+}
+
+.boxForm{
+    position:relative;
+    background: rgba(255, 255, 255, 0.664);
+    border: 1px #00000046;
+    margin-top: 100px;
+}
+
+.botonDiseño{
+    padding: 100px;
 }
     
 h1{
@@ -22,10 +33,11 @@ h1{
     align-items: center;
     text-align: center;
     letter-spacing: 0.08em;
-    color: #ffffff;
+    color: #FFFFFF;
     mix-blend-mode: normal;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 150px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    background: rgba(33, 61, 218, 0.452);
 }
 
 .cardnumberone{
