@@ -9,7 +9,7 @@ body{
 
 .boxForm{
     position:relative;
-    background: rgba(255, 255, 255, 0.664);
+    background: rgba(255, 255, 255, 0.26);
     border: 1px #00000046;
     margin-top: 100px;
     
@@ -17,13 +17,12 @@ body{
 
 .botonDiseño{
     padding: 25px;
-    background: rgba(247, 248, 250, 0.671);
-    font-family: 'Girassol';
+    background: rgba(247, 248, 250, 0.664);
     font-style: normal;
     ext-decoration: #FFFFFF;
     position:relative;
     border: none;
-    
+    font-size:20px;
 }
     
 h1{
