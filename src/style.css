@@ -12,10 +12,18 @@ body{
     background: rgba(255, 255, 255, 0.664);
     border: 1px #00000046;
     margin-top: 100px;
+    
 }
 
 .botonDiseño{
-    padding: 100px;
+    padding: 25px;
+    background: rgba(247, 248, 250, 0.671);
+    font-family: 'Girassol';
+    font-style: normal;
+    ext-decoration: #FFFFFF;
+    position:relative;
+    border: none;
+    
 }
     
 h1{
