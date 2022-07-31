@@ -19,7 +19,7 @@ Pensando en una interfaz agradable con el usuario, en la misma pag podra visuali
 
 ## _FEEDBACK_
 
-*desde el dia uno se detecta areas de oportunidad con respecto a temas de diseño, ya que en diversos feedback recibidos tanto por compañeras como por couchs, fueron comentarios respectos a diseño a fin de que fuera mas agradable al usuario. En vista a lo anterior se implementan las observaciones las que ban desde un fondo con colores mas suabes para el usuario, al cambio de color del fondo de los inputs*
+*Desde el dia uno se detecta areas de oportunidad con respecto a temas de diseño, ya que en diversos feedback recibidos tanto por compañeras como por couchs, fueron comentarios respectos a diseño a fin de que fuera mas agradable al usuario. En vista a lo anterior se implementan las observaciones las que ban desde un fondo con colores mas suabes para el usuario, al cambio de color del fondo de los inputs.*
 
 ![primerdiseño](C:\Users\bertha_janeth\Documents\GitHub\CDMX013-card-validation\primerdiseño.PNG)
 
