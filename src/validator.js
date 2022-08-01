@@ -1,5 +1,5 @@
 const validator = {
-  // inputValue entra como un array ordendo y depurado
+  // inputValue entra como un array ordenando y depurado
 
  isValid : function(inputValue){
 
