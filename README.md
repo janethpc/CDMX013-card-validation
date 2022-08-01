@@ -1,4 +1,4 @@
-# Tarjeta de crédito válida
+# CARD VALIDATION
 
 El presente proyecto data respecto a serie de declaraciones realizadas empleando js. en tipo "module", a fin de poder implementar la funcionavilidad del algoritmo de Luhn, con la finalidad princiapal de que el usuario de una pagina de asesoria legal en linea pueda realizar el pago de los servicios requeridos, llevando a cabo la validacion de una tarjeta bancaria.  
 
