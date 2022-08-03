@@ -24,8 +24,8 @@ const validator = {
 
     var sum = 0;
 
-    for (var i=1; i<value.length; i++){
-      sum += parseInt(value[i]); //va sumando los valores del indice (mientra parsea el array)
+    for (var j=1; j<value.length; j++){
+      sum += parseInt(value[j]); //va sumando los valores del indice (mientra parsea el array)
       console.log(sum);
     }
 
