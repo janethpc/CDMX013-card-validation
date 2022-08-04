@@ -23,7 +23,7 @@ function getValueInput() {
   }
 
 
-};
+}
 
 //evento de teclado para enmascarar
 
