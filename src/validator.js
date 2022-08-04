@@ -3,7 +3,7 @@ const validator = {
 
  isValid : function(inputValue){
 
-  let value = inputValue.reverse();
+  let value = Array.from(inputValue).reverse();
 
     for (var i=0; i<value.length; i++){
       
@@ -44,12 +44,16 @@ const validator = {
   maskify : function(inputValueString){
 
 
-      let cardNumString = inputValueString; //atrapar el value en una variable por siaca, sigue siendo un array
+      let cardNumString = Array.from(inputValueString); //atrapar el value en una variable por siaca, sigue siendo un array
 
       let stringLength = cardNumString.length - 4; // le sacamos 4 caracteres para enmascarar
   
-      if (stringLength <= 0) alert("error, no puede haber tarjeta con menos numeros"); //la cadena no puede dar menor o igual a cero
-  
+      if (stringLength <= 0) console.log("error, no puede haber tarjeta con menos numeros"); //la cadena no puede dar menor o igual a cero
+      document.getElementById("noNumber").innerHTML= "error, no puede haber tarjeta con menos numeros";
+      setTimeout(() => {
+        document.getElementById("noNumber").innerHTML= "";
+      }, 2000);
+
       for (let i = 0; i <stringLength; i++) {
           cardNumString[i] = '#'; //for que recorre cardNumString las veces que stringLenght y cambia el valor a # 
       }
