@@ -48,12 +48,12 @@ const validator = {
 
       let stringLength = cardNumString.length - 4; // le sacamos 4 caracteres para enmascarar
   
-      if (stringLength <= 0) console.log("error, no puede haber tarjeta con menos numeros"); //la cadena no puede dar menor o igual a cero
+      if (stringLength <= 0) { console.log("error, no puede haber tarjeta con menos numeros"); //la cadena no puede dar menor o igual a cero
       document.getElementById("noNumber").innerHTML= "error, no puede haber tarjeta con menos numeros";
-      setTimeout(() => {
+  setTimeout(() => {
         document.getElementById("noNumber").innerHTML= "";
       }, 2000);
-
+    }
       for (let i = 0; i <stringLength; i++) {
           cardNumString[i] = '#'; //for que recorre cardNumString las veces que stringLenght y cambia el valor a # 
       }
